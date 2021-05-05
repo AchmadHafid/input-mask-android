@@ -14,6 +14,11 @@ buildscript {
     }
 }
 
+plugins {
+    id "com.github.dcendents.android-maven" version "2.1"
+    id "com.github.ben-manes.versions" version "0.38.0"
+}
+
 allprojects {
     apply from: "${rootProject.projectDir}/gradle/version.gradle"
 

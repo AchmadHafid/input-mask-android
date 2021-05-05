@@ -1,8 +1,9 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'org.jetbrains.dokka'
+apply plugin: 'com.github.dcendents.android-maven'
 
-apply from: '../gradle/publish.gradle'
+group = 'com.github.AchmadHafid'
 
 android {
     compileSdkVersion build_versions.compile_sdk
